@@ -13,19 +13,19 @@ int main(void)
 
 int binsearch(int v[], int x, int n)
 {
-	int low = 0;
-	int high = n - 1;
+    int low = 0;
+    int high = n - 1;
     int mid = (low + high) / 2;
-	while (low <= high && x != v[mid])
+    while (low <= high && x != v[mid])
     {
-		if (x < v[mid])
-			high = mid - 1;
-		else if (x > v[mid])
-			low = mid + 1;
+        if (x < v[mid])
+            high = mid - 1;
+        else if (x > v[mid])
+            low = mid + 1;
         mid = (low + high) / 2;
     }
     if (x == v[mid])
         return mid;
-	else 
+    else 
         return -1;
 }
