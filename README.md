@@ -5,4 +5,4 @@ My solutions of K&amp;R (The C Programming Language 2nd edition)
 
 ##[chapter2](https://github.com/siyaoZHANG/KnR-Solutions/tree/master/chapter2)
 
-##[chapter2](https://github.com/siyaoZHANG/KnR-Solutions/tree/master/chapter3)
+##[chapter3](https://github.com/siyaoZHANG/KnR-Solutions/tree/master/chapter3)
